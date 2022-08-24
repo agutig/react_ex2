@@ -1,9 +1,9 @@
 
 import React from 'react'
 
-function Boton({text ,tipo_boton}){
+function Boton({text ,tipo_boton , manejarClick}){
     return(
-        <button className= {tipo_boton}>{text}</button>
+        <button className= {tipo_boton} onClick={manejarClick} >{text}</button>
     );
 }
 

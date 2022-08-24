@@ -1,8 +1,9 @@
 import React from 'react'
+import '../style/counter.css'
 
 function Counter({text}){
     return(
-        <p>{text}</p>
+        <p className='counter'>{text}</p>
     );
 }
 

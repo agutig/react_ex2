@@ -1,0 +1,9 @@
+.counter{
+    background-color: whitesmoke;
+    border: 5px solid black;
+    min-width: fit-content;
+    width: 25vw;
+    height: 22vw;
+    margin: auto;
+    font-size: 15vh;
+}

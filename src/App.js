@@ -20,9 +20,7 @@ function App() {
     <div className="App">
       <div className='mainContainer'>
         <h1>Click Counter!</h1>
-        <div className='counter'>
           <Counter text={counter}/>
-        </div>
           <Boton text='click' tipo_boton='click_button' manejarClick={ click_counted }/>
           <Boton text='reset' tipo_boton='reset_button' manejarClick={ reset_counter }/>
       </div>

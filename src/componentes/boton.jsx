@@ -1,5 +1,6 @@
 
 import React from 'react'
+import '../style/boton.css'
 
 function Boton({text ,tipo_boton , manejarClick}){
     return(

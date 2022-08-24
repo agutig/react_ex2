@@ -1,4 +1,15 @@
 
 button{
     background-color: white;
+    width: 25vw;
+    margin-top: 1vh;
+    font-size: 8vh;
+}
+
+.click_button{
+    background-color: rgb(67, 255, 67);
+}
+
+.reset_button{
+    background-color: rgb(253, 97, 97);
 }
